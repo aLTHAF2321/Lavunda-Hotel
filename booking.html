@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavunda Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="logo.webp" alt="Your Hotel Logo">
+    </div>
+
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hotelbranch.html">Hotel Branch</a></li>
+        <li><a href="adventure.html">Adventures</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li class="events-dropdown">
+            <a href="restaurant.html">Reastaurant</a>
+            <ul class="submenu">
+                <li><a href="event1.html">Event 1</a></li>
+                <li><a href="event2.html">Event 2</a></li>
+                
+            </ul>
+        </li>
+        
+    </ul>
+</nav>
+
+<!-- Hero Image -->
+<div class="hero">
+    <img src="book.jpg" alt="Welcome to our Hotel">
+    <div class="hero-content">
+    </div>
+
+    <!-- Personal Details Form -->
+<section class="personal-details">
+    <div class="form-container">
+        <h2>Personal Details</h2>
+        <form id="personal-details-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+           
+        </form>
+    </div>
+</section>
+
+
+    <!-- Room Reservation Form -->
+    <section class="booking-form">
+        <h2>Room Reservation</h2>
+        <form action="#" method="POST">
+            <label for="room-type">Select Room Type:</label>
+            <select id="room-type" name="room-type">
+                <option value="single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+            </select>
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+            <label for="room">Number of rooms:</label>
+            <input type="number" id="room" name="room" min="1" required>
+            <button type="submit">Book Room</button>
+        </form>
+    </section>
+
+    <!-- Adventure Booking Form -->
+    <section class="booking-form">
+        <h2>Adventure Booking</h2>
+        <form action="#" method="POST">
+            <label for="adventure">Select Adventure:</label>
+            <select id="adventure" name="adventure">
+                <option value="adventure1">Rafting</option>
+                <option value="adventure2">Mountain Biking</option>
+                <option value="adventure3">Hot Air Balooning</option>
+            </select>
+            <label for="adventure-date">Preferred Date:</label>
+            <input type="date" id="adventure-date" name="adventure-date" required>
+            <label for="participants">Number of Participants:</label>
+            <input type="number" id="participants" name="participants" min="1" required>
+            <button type="submit">Book Adventure</button>
+        </form>
+    </section>
+
+   <!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.webp" alt="Your Hotel Logo">
+        </div>
+        <div class="footer-text">
+            <p>Follow us on social media</p>
+            
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+        </div>
+    </div>
+    <p>Serving and delivering excellent hospitality since 1996</p>
+</footer>
+</body>
+</html>
+
+    
+</body>
+</html>
